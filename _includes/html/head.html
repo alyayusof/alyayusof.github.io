@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8">
-    <title>Alya Shafiqah</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="UI/UX Designer" name="description" />
     <meta content="Alya Yusof" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <!-- <link rel="shortcut icon" type="image/ico" href="/assets/img/icon.png"> -->
+    <!-- <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/img/icon.png"> -->
 
     <!-- App css -->
-    <!-- <link href="/assets/css/styles.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="{{ site.baseurl }}/assets/css/styles.css" rel="stylesheet" type="text/css"> -->
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,20 +19,8 @@
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/assets/js/tailwind-config.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/tailwind-config.js"></script>
 
     <!-- Material Design Icon -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
 </head>
-
-<body>
-    <div class="flex flex-wrap w-full h-screen justify-center items-center">
-  <div class="text-center">
-    <div class="text-xl">404</div>
-    <div class="text-lg">Page not found</div>
-  </div>
-</div>
-
-</body>
-
-</html>

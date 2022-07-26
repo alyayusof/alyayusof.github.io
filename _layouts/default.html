@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include html/head.html %}
+
+<body>
+    <div class="flex flex-col min-h-screen w-full">
+        <div class="flex-shrink bg-black text-white">
+            {% include components/nav.html %}
+        </div>
+        <div class="flex-1 flex flex-wrap justify-center content-center">
+            {{ content }}
+        </div>
+    </div>
+</body>
+
+</html>
