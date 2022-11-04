@@ -8,7 +8,7 @@
     <div class="flex-1 flex flex-wrap items-center justify-center">
       <div class="space-y-2 text-primary-lighter text-center">
         <div class="text-h1 font-black uppercase">Coming Soon</div>
-        <div>This site is under construction. <br/> Thank you for visiting.</div>
+        <div>This site is under development. <br/> Thank you for visiting.</div>
       </div>
     </div>
   </div>
