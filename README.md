@@ -1,50 +1,52 @@
-# alyayusof.github.io
+# My Personal Web Site
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a personal website built with Vue 3 and TailwindCSS using Vite.
 
+## Getting Started
 
-## Recommended IDE Setup
+### Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+Before running this project, make sure you have installed the following:
 
-## Customize configuration
+- Node.js
+- npm or yarn
+- Vite
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Installation
 
-## Clone repository
+1. Clone the repository:
 
-Clone the repository from GitHub
-
-```sh
+```
 git clone https://github.com/alyayusof/alyayusof.github.io.git
 ```
 
-Go to your project directory
+2. Install the dependencies:
 
-```sh
-cd alyayusof.github.io
 ```
-
-## Project Setup
-
-```sh
+cd alyayusof.github.io
 npm install
 ```
 
-### Compile and Hot-Reload for Front-End Preview
+### Running the project
 
-```sh
-npm run preview
+To run the project, execute:
+
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+The website will be available at http://localhost:3000.
 
-```sh
+### Building for production
+
+To build the project for production, execute:
+
+```
 npm run build
 ```
+
+The production-ready files will be generated inside the `dist` directory.
+
+## License
+
+This project is not licensed.
