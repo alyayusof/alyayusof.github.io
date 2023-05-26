@@ -1,52 +1,41 @@
 # My Personal Web Site
 
-This project is a personal website built with Vue 3 and TailwindCSS using Vite.
+This is my personal website built using Jekyll and styled with Tailwind CSS CDN. The website showcases my portfolio, blog posts, and provides information about me.
 
-## Getting Started
+## Features
 
-### Prerequisites
+- Responsive design using Tailwind CSS
+- Portfolio section to showcase projects
+- Blog section to share articles and updates
+- About Me section to provide information about the website owner which is me
 
-Before running this project, make sure you have installed the following:
+## Installation
 
-- Node.js
-- npm or yarn
-- Vite
-
-### Installation
-
-1. Clone the repository:
+To install this project, you will need to have Jekyll installed on your machine. Once you have Jekyll installed, you can clone this repository and run the following command in your terminal:
 
 ```
-git clone https://github.com/alyayusof/alyayusof.github.io.git
+bundle exec jekyll serve
 ```
 
-2. Install the dependencies:
+
+Add `--livereload` to make the browser automatically refresh on save.
 
 ```
-cd alyayusof.github.io
-npm install
+bundle exec jekyll serve --livereload
 ```
 
-### Running the project
+This will build the site and serve it locally at `http://localhost:4000`.
 
-To run the project, execute:
+## Usage
 
-```
-npm run dev
-```
+To customize the content of the site, you can modify the files in the `_posts` and `_pages` directories. Each file represents a blog post or a page on the website and is written in Markdown format.
 
-The website will be available at http://localhost:3000.
+To modify the layout or styling of the site, you can modify the files in the `_layouts`, `_includes`, and `_sass` directories. The styling is done using Tailwind CSS classes, which can be found in the HTML files.
 
-### Building for production
+## Contact
 
-To build the project for production, execute:
-
-```
-npm run build
-```
-
-The production-ready files will be generated inside the `dist` directory.
+If you have any questions or feedback about this project, please feel free to contact me at [alyae98@gmail.com](mailto:alyae98@gmail.com).
 
 ## License
 
-This project is not licensed.
+This project is not currently licensed.
